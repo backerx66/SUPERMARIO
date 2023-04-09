@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color:honeydew;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+}
+header{
+    display: flex;
+    background-color:rgba(128, 255, 0, 0.595);
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px,20px;
+}
+nav ul{
+   list-style: none;
+   display: flex;
+   color: rgb(155, 255, 127);
+   align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+    font-size: 20px;
+    color: rgba(220, 37, 20, 0.925);
+    
+}
+nav ul li a{
+    padding: 15px;
+    text-decoration: none;
+    color: #d51616;
+    transition: 2s;
+}
+nav ul li a:hover{
+    box-shadow: 0 5px 20px rgb(151, 249, 15) inset, 0 5px 20px rgb(151, 249, 15) inset,
+    0 5px 20px rgb(151, 249, 15) inset,0 5px 20px rgb(151, 249, 15) inset;
+}
+
+nav .btn{
+    color: #000;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 12px;
+    background-color: rgba(249, 15, 15, 0.734);   
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+    background-image: url("NN.jpg");
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+    color:azure;
+}
+.welcome h2{
+    font-size: 30px;
+    margin-bottom:20px ;
+}
+.welcome button{
+    padding :30px,20px;
+    background-color: rgb(205, 218, 255);
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.aboutus{
+    text-align: center;
+    padding: 40px,30px;
+}
+.aboutus p{
+    margin-bottom: 30px;
+    line-height: 1.3;
+    font-size: 20px;
+}
+.aboutus h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:chartreuse;
+}
+
+    .imagescontainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+    }
+    .imagescontainer img{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    
+}
+footer{
+    padding: 20px,20px;
+    text-align: center;
+    background-color: aliceblue;
+}
+footer p{
+    font-size: 14px;
+    color: burlywood;
+}
+
+
+
